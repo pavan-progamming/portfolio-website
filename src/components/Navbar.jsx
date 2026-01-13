@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Github, Linkedin, Mail, Moon, Sun } from 'lucide-react';
 import { Link } from 'react-scroll';
 import { motion, AnimatePresence } from 'framer-motion';
+import Logo from './Logo';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -35,8 +36,8 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0 cursor-pointer">
-                        <Link to="home" smooth={true} duration={500} className="text-2xl font-bold bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent">
-                            RPK
+                        <Link to="home" smooth={true} duration={500}>
+                            <Logo size="default" />
                         </Link>
                     </div>
 
