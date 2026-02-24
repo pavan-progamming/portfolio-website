@@ -63,11 +63,11 @@ const Content = () => {
 
                         <div className="flex gap-6 mb-8">
                             <div className="text-center">
-                                <div className="text-3xl font-bold">190+</div>
+                                <div className="text-3xl font-bold">222+</div>
                                 <div className="text-xs text-red-200 uppercase tracking-wider">Subscribers</div>
                             </div>
                             <div className="text-center">
-                                <div className="text-3xl font-bold">40+</div>
+                                <div className="text-3xl font-bold">50+</div>
                                 <div className="text-xs text-red-200 uppercase tracking-wider">Videos</div>
                             </div>
                         </div>
